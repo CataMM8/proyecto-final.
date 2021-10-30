@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="Styles/style.galery.css">
+</head>
+<body>
+    <header>
+        <img class="alineadoTextoImagenAbajo" src="Images/logo.jpg" align="left"/>
+        &nbsp;<h1>Introducción al Desarrollo Web</h1>
+        <br>
+        <div class="container-one" id="links">   
+            <a href="index.html"> Inicio</a href>|
+            <a href="biografia.html"> Biografía</a href>|
+            <a href="galeria.html"> Galeria</a href>
+        </div>
+    </header>
+
+   <h2>Galeria</h2>
+    
+    <div id="app">
+        <button id="cate1Btn" onclick="toggleCategory('cate1')">Hobbies</button>
+        <button id="cate2Btn" onclick="toggleCategory('cate2')">Mascotas</button>
+        <button id="cate3Btn" onclick="toggleCategory('cate3')">Paseos</button>
+        <div id="gallery">
+            <br>
+            <div class="category" id="category1">
+                <div class="category-img"><img src="Images/Hobbies/Hobbie1.jpg"></div>
+                <div class="category-img"><img src="Images/Hobbies/Hobbie2.jpg"></div>
+                <div class="category-img"><img src="Images/Hobbies/Hobbie3.jpg"></div>
+                <div class="category-img"><img src="Images/Hobbies/Hobbie4.jpg"></div>
+            </div>
+            <div class="category" id="category2">
+                <div class="category-img"><img src="Images/Mascotas/Mascota1.jpg"></div>
+                <div class="category-img"><img src="Images/Mascotas/Mascota2.jpg"></div>
+                <div class="category-img"><img src="Images/Mascotas/Mascota3.jpg"></div>
+                <div class="category-img"><img src="Images/Mascotas/Mascota4.jpg"></div>
+            </div>
+            <div class="category" id="category3">
+                <div class="category-img"><img src="Images/Paseos/Paseo1.jpg"></div>
+                <div class="category-img"><img src="Images/Paseos/Paseo2.jpg"></div>
+                <div class="category-img"><img src="Images/Paseos/Paseo3.jpg"></div>
+                <div class="category-img"><img src="Images/Paseos/Paseo4.jpg"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <small>&#169; 2021. Hecho por Catalina Matamoros</small>&nbsp;|
+    <div class="sociales">
+        &nbsp;<i class="fab fa-facebook-square"></i>
+        &nbsp;<i class="fab fa-instagram"></i>
+        &nbsp;<i class="fab fa-twitter-square"></i>
+        &nbsp;<i class="fab fa-linkedin"></i>
+    </div>
+    </footer>
+
+    <script src="Scripts/script.js"></script>
+</body>
+</html>
